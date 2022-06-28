@@ -1,0 +1,12 @@
+.fb {
+    background-color: #182838;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 250px;
+    color:azure;
+    position: absolute
+}
+.social-button {
+    padding: 10px
+}
