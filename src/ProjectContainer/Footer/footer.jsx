@@ -22,12 +22,12 @@ function footer() {
           <div className="col-sm-12 col-md-4 text-center align-self-center">
             <h5>Links</h5>
             <ul className="list-unstyled">
-                <li><a className="footerlink" href="https://www.ncbi.nlm.nih.gov/">NCBI</a></li>
-                <li><a className="footerlink" href="https://dbtindia.gov.in/covid/dbt-initiatives">DBT, Govt. of India</a></li>
-                <li><a className="footerlink" href="https://www.rcb.res.in/">Regional Centre for Biotechnology</a></li>
-                <li><a className="footerlink" href="http://www.svbpmeerut.ac.in/">SVPUAT, Meerut</a></li>
-                <li><a className="footerlink" href="https://www.csir.res.in/">CSIR</a></li>
-                <li><a className="footerlink" href="https://icar.org.in/">ICAR</a></li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/">NCBI</a></li>
+                <li><a href="https://dbtindia.gov.in/covid/dbt-initiatives">DBT, Govt. of India</a></li>
+                <li><a href="https://www.rcb.res.in/">Regional Centre for Biotechnology</a></li>
+                <li><a href="http://www.svbpmeerut.ac.in/">SVPUAT, Meerut</a></li>
+                <li><a href="https://www.csir.res.in/">CSIR</a></li>
+                <li><a href="https://icar.org.in/">ICAR</a></li>
             </ul>
           </div>
           <div className="col-sm-12 col-md-4 text-center align-self-center">
