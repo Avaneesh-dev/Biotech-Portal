@@ -68,17 +68,6 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
-                <Link to="/about">
-                  <MenuItem onClick={handleCloseNavMenu}>
-                    <Typography
-                      variant="h6"
-                      sx={{ fontFamily: "Poppins Bold" }}
-                      textAlign="center"
-                    >
-                      About Us
-                    </Typography>
-                  </MenuItem>
-                </Link>
                 <Link to="/research">
                   <MenuItem onClick={handleCloseNavMenu}>
                     <Typography
@@ -86,7 +75,7 @@ const ResponsiveAppBar = () => {
                       sx={{ fontFamily: "Poppins Bold" }}
                       textAlign="center"
                     >
-                      Research
+                      GATE & Research
                     </Typography>
                   </MenuItem>
                 </Link>
@@ -124,20 +113,12 @@ const ResponsiveAppBar = () => {
                   Home
                 </Button>
               </Link>
-              <Link to="about">
-                <Button
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
-                >
-                  About Us
-                </Button>
-              </Link>
               <Link to="research">
                 <Button
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  Research
+                  GATE & Research
                 </Button>
               </Link>
               <Link to="seq-analyst">

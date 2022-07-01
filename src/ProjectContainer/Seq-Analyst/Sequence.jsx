@@ -51,10 +51,25 @@ function Sequence() {
 
   return (
     <div className="seq-container container-fluid">
-      <div className="row row-content align-items-center text-center col">
+      <div className="row row-content col">
+        <div className="col-12">
+          <h3 className="text-center">Links to various insilico analysis tools:</h3>
+          <ul className="list-font">
+            <li><a href="https://www.ncbi.nlm.nih.gov/">BLASTN</a>: BLAST finds regions of similarity between biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance.</li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/">BLASTX</a>: BLAST finds regions of similarity between biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance.</li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/">Primer BLAST</a>: Primer-blast tries to find target-specific primers by placing candidate primers on unique template regions that are not similar to other targets</li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/">In Silico PCR</a>: In-Silico PCR searches a sequence database with a pair of PCR primers, using an indexing strategy for fast performance.</li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/">ORF Finder</a>: ORF finder searches for open reading frames (ORFs) in the DNA sequence you enter. The program returns the range of each ORF, along with its protein translations</li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/">Phyre-2</a>: Phyre2 is a suite of tools available on the web to predict and analyse protein structure, function and mutations</li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/">RasMol</a>: RasMol is an important scientific tool for visualisation of molecules created by Roger Sayle in 1992.</li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/">Mega 11</a>: Molecular Evolutionary Genetics Analysis (MEGA) is computer software for conducting statistical analysis of molecular evolution and for constructing phylogenetic trees.</li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/">BioEdit</a>: A User-Friendly Biological Sequence Alignment Editor and Analysis Program for Windows 95/98/NT.</li>
+          </ul>
+        </div>
+        <div className="text-center col-12 mb10">
         <h3 className="col-12">Information</h3>
-        <h6 className="col-12">Enter the DNA Sequence query below and get the post transcription sequence and post translation amino 
-        acid sequence. Due to degeneracy of the Genetic Code and wobble hypothesis, different codons code for the same amino acid.</h6>
+        <h6 className="col-12">Enter the DNA template strand sequence query below</h6>
+        </div>
       </div>
 
       <form className="row col-12">

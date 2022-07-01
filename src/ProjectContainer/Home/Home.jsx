@@ -6,7 +6,7 @@ function Home() {
     <div className="home-container container-fluid">
       <div className="row row-content align-items-center">
         <div className="col-12 col-sm-4 order-sm-last col-md-3">
-          <h3>Latest Events in Biotechnology</h3>
+          <h3>Research Papers with highest citations</h3>
         </div>
 
         <div className="col col-sm order-sm-first col-md-3">
@@ -19,8 +19,7 @@ function Home() {
         <div className="col col-sm order-sm-first col-md-6">
           <h2 className="mt-0">Research Papers</h2>
           <p className="d-none d-sm-block">
-            Click the image to read the latest research papers published on top
-            sources of Biotechnology Information like NCBI.
+            In the GATE & Research tab you are presented with the papers with highest number of citations and also a to-the-point action-plan for preparing for the GATE Biotechnology exam.
           </p>
         </div>
       </div>
